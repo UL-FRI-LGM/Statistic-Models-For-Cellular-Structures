@@ -1,3 +1,30 @@
+# Visualization of procedurally generated cellular structures
+
+A repository containing code developed as part of the Bachelor thesis at the University of Ljubljana, Faculty of Computer and Information Science by [Kovač Marina](https://github.com/MarinaUVP).
+
+## Abstract
+In this work, we were dealing with how to generate new models of cellular structures from real volumetric images. From the database of volumetric images with labeled cellular structures, we extracted two kinds of cellular structures (endolysosomes and fusiform vesicles), and prepared new volumetric images with only one object in each to later find points on their surfaces. With those points, we created a shape model used in the generation of new cellular structures. We defined a process to generate new models of cellular structures based on the three input parameters. Output is the same if none of those three parameters change. Thus, the user has the ability to generate countless different models. After we created a few new models with the proposed generator, we evaluated those new models with two approaches. First, calculating the root mean square error (RMSE) and then calculating and comparing norms of average vectors and vectors for standard deviations. A quick evaluation with an eye may reveal some of the generated models are nicer than existing ones. Nevertheless, new models could be even better if we would also modify the sizes of the learning and testing objects.
+
+
+The thesis is accessible at:
+[https://repozitorij.uni-lj.si/Dokument.php?id=150090]
+
+Bibtex:
+```
+@thesis{Kovac2021,
+    title = {Visualization of procedurally generated cellular structures},
+    author = {Kovač, Marina},
+    year = {2021},
+    school = {University of Ljubljana, Faculty of Computer and Information Science},
+    type = {Master thesis},
+    address = {Ljubljana, Slovenia},
+    note = {Mentor: Ciril Bohak, Co-mentor: David Murphy, Language: Slovenian, Slovenian title: Vizualizacija proceduralno generiranih celičnih struktur},
+    url = {https://repozitorij.uni-lj.si/Dokument.php?id=150090}
+}
+```
+
+...
+
 # Statistic-Models-For-Cellular-Structures
 
 A workflow to generated new objects of cellular structures.
